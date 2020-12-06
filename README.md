@@ -114,7 +114,7 @@ This project is still young and isn't, at the momoment, very stable, so please p
   `cp .env.example .env`
    - Add your domain, email address, mailgun credentials
    - Set a secure redis password and secret key
- - Update your nginx configuration in `nginx/defautl.conf`
+ - Update your nginx configuration in `nginx/default.conf`
    - Replace `your-domain.com` with your domain name
  - Run the application (this should also set up a Certbot ssl cert for your domain)
   `docker-compose up --build`
